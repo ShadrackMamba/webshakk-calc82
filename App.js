@@ -99,7 +99,7 @@ export default function App() {
     <View style={{ flex: 1 }}>
 
       <WebView
-        source={require('./app/index.html')}
+        source={require('./assets/index.html')}
         style={{ flex: 1 }}
       />
 
