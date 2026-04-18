@@ -7,21 +7,15 @@
     "icon": "./assets/app.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-
+  
     "splash": {
       "image": "./assets/app.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
     "ios": {
       "supportsTablet": true
     },
-
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/app.png",
@@ -30,15 +24,16 @@
       "edgeToEdgeEnabled": true,
       "package": "com.smamba6123.calc82"
     },
-
     "web": {
       "favicon": "./assets/app.png"
     },
-
     "extra": {
       "eas": {
         "projectId": "bae008e7-dfd8-44af-b0c1-34bd49e0c42a"
       }
-    }
+    },
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
